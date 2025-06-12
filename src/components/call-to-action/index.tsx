@@ -9,7 +9,7 @@ export default function CallToActionAndEvents() {
       <div className="container mx-auto px-4 py-8">
         {/* CTA Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {ctaItems.map(({ id, title, description, btnText, btnHref }) => (
+          {ctaItems.map(({ id, title, description }) => (
             <div key={id} className="p-6 rounded-lg shadow-md flex flex-col justify-between">
               <h5 className="text-left font-semibold mb-3 font-yellowtail text-3xl">{title}</h5>
               <p className="mb-4 text-gray-700 flex-grow text-white">{description}</p>
