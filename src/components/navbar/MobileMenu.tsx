@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import SocialLinks from "@/shared/ui/social-media-block";
 
 export default function MobileMenu({ isOpen, setIsOpen }) {
   return (
@@ -24,9 +25,12 @@ export default function MobileMenu({ isOpen, setIsOpen }) {
           </Link>
         </li>
         <li>
+          <SocialLinks />
+        </li>
+        <li>
           <Link href="/tickets" onClick={() => setIsOpen(false)}
               className="block py-2 px-6 border border-green-500 rounded text-green-500 hover:bg-green-500 hover:text-white transition">
-              Buy Tickets
+              Launch App
           </Link>
         </li>
       </ul>

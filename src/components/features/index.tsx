@@ -6,7 +6,7 @@ import { featuredCars } from "./data";
 export default function FeaturedCarsSection() {
   return (
     <section id="featured-cars" className="py-16 px-6 bg-gray-100">
-      <h2 className="text-3xl font-semibold text-center mb-12 font-yellowtail">
+      <h2 className="text-5xl font-semibold text-center mb-12 font-yellowtail">
         Featured Cars
       </h2>
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">

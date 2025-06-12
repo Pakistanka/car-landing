@@ -10,7 +10,7 @@ export const featuredCars = [
     id: 2,
     name: "Porsche 356A Speedster",
     description:
-      "Feel the true roots of the legendary automotive brand Porsche, with the 356A Speedster. Made in the 1950s, this car features a timeless design that shaped Porsche for years to come. Experience this 356A in all its glory at Vintage Autohaus.",
+      "Feel the true roots of the legendary automotive brand Porsche, with the 356A Speedster. Made in the 1950s, this car features a timeless design that shaped Porsche for years to come. Experience this 356A in all its glory at Carkenstein.",
     image: "/images/image4.jpg",
   },
   {
@@ -31,7 +31,7 @@ export const featuredCars = [
     id: 5,
     name: "Audi S1 Sport Quattro",
     description:
-      "Picture this: It's 1985. You're Audi. You want to win Group-B Rally. What do you do? You make a 4WD, 500HP monster. This is the Audi S1. This car shaped Audi for the future, with the remarkable Quattro drive system. A piece of history, right here, at the Vintage Autohaus.",
+      "Picture this: It's 1985. You're Audi. You want to win Group-B Rally. What do you do? You make a 4WD, 500HP monster. This is the Audi S1. This car shaped Audi for the future, with the remarkable Quattro drive system. A piece of history, right here, at the Carkenstein.",
     image: "/images/image7.jpg",
   },
   {
