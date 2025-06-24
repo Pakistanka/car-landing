@@ -3,8 +3,6 @@ import { useState, useEffect } from 'react'
 import MobileMenu from './MobileMenu'
 import SocialLinks from "@/shared/ui/social-media-block";
 import Image from 'next/image'
-import LogoUrl from './public/images/game_logo.png';
-
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
