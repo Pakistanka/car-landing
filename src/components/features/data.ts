@@ -1,44 +1,44 @@
 export const featuredCars = [
   {
     id: 1,
-    name: "Chevrolet Chevelle SS",
+    name: "Citroën 2CV",
     description:
-      "454 cubic inches V8, 450hp, back in the 70s, was an insane amount of power. See the pure American MOPAR goodness in this gorgeously preserved Chevy Chevelle SS, from the goodies of the SS package to the deafening sound of the big-block V8.",
-    image: "/images/image3.jpg",
+      "Produced from 1948 to 1990, the 2CV was designed to be affordable and practical for rural France. Its lightweight frame, soft suspension, and minimalist design made it an icon of post-war mobility.",
+    image: "/images/citroen_2cv.jpg",
   },
   {
     id: 2,
-    name: "Porsche 356A Speedster",
+    name: "Volkswagen Beetle",
     description:
-      "Feel the true roots of the legendary automotive brand Porsche, with the 356A Speedster. Made in the 1950s, this car features a timeless design that shaped Porsche for years to come. Experience this 356A in all its glory at Carkenstein.",
-    image: "/images/image4.jpg",
+      "One of the best-selling cars of all time, the Beetle was designed in the 1930s and gained global popularity post-WWII. Its air-cooled rear engine and unique shape made it instantly recognizable.",
+    image: "/images/vw_beetle.jpg",
   },
   {
     id: 3,
-    name: "Mercedes-Benz 190SL",
+    name: "Renault 5",
     description:
-      "One of the most beautiful cars ever made, the Mercedes-Benz 190SL is the queen of the 1950s. It is one of the rarest, most sought-after Mercedes models. Experience one in pristine condition with an optional ride-in package today.",
-    image: "/images/image5.jpg",
+      "This compact French hatchback debuted in 1972 and became beloved for its practicality, fuel efficiency, and distinctive design. The Renault 5 Turbo brought performance to the lineup in the 1980s.",
+    image: "/images/renault_5.jpg",
   },
   {
     id: 4,
-    name: "Shelby AC Cobra 427",
+    name: "Mini Minor",
     description:
-      "One of the rarest cars on the floor, the Shelby Cobra 427 was the pride and joy of the legendary racer Carrol Shelby. A 7-liter V8 and lightweight chassis propel this car from 0-60 in 3.4 seconds, making it one of the fastest cars of its time.",
-    image: "/images/image6.jpg",
+      "Launched in 1959, the original Mini revolutionized car design with its transverse engine and front-wheel drive. It was compact, fun to drive, and became a cultural icon across the globe.",
+    image: "/images/mini_minor.jpg",
   },
   {
     id: 5,
-    name: "Audi S1 Sport Quattro",
+    name: "Alfa Romeo Alfasud",
     description:
-      "Picture this: It's 1985. You're Audi. You want to win Group-B Rally. What do you do? You make a 4WD, 500HP monster. This is the Audi S1. This car shaped Audi for the future, with the remarkable Quattro drive system. A piece of history, right here, at the Carkenstein.",
-    image: "/images/image7.jpg",
+      "Released in the early 1970s, the Alfasud combined sporty performance with practicality. Known for its boxer engine and sharp handling, it was one of Alfa Romeo’s most successful compact models.",
+    image: "/images/alfa_alfasud.jpg",
   },
   {
     id: 6,
-    name: "Ferrari Dino 246 GT",
+    name: "Fiat Panda",
     description:
-      "One of the very rare Ferraris with a V6, the Dino 246 GT featured groundbreaking design. It is the first 'mass-produced' Ferrari, with a distinct design and driving experience, complete with a synchronized 5-speed manual transmission.",
-    image: "/images/image8.jpg",
+      "Introduced in 1980, the Panda was designed by Giorgetto Giugiaro to be simple, utilitarian, and versatile. Its boxy design, economical engine, and 4x4 variant made it a favorite in Europe.",
+    image: "/images/fiat_panda.jpg",
   },
 ];

@@ -1,18 +1,11 @@
-// components/SocialLinks.tsx
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaTwitter, FaYoutube, FaDiscord } from "react-icons/fa";
 
 const socialLinks = [
   {
-    href: "https://facebook.com",
-    label: "Facebook",
-    icon: <FaFacebookF size={20} />,
-    className: "hover:text-blue-500 active:text-blue-300",
-  },
-  {
-    href: "https://instagram.com",
-    label: "Instagram",
-    icon: <FaInstagram size={20} />,
-    className: "hover:text-pink-500 active:text-pink-300",
+    href: "https://discord.com/invite/your-server",
+    label: "Discord",
+    icon: <FaDiscord size={20} />,
+    className: "hover:text-indigo-500 active:text-indigo-300",
   },
   {
     href: "https://twitter.com",
@@ -46,3 +39,4 @@ export default function SocialLinks() {
     </div>
   );
 }
+

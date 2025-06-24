@@ -2,6 +2,9 @@
 import { useState, useEffect } from 'react'
 import MobileMenu from './MobileMenu'
 import SocialLinks from "@/shared/ui/social-media-block";
+import Image from 'next/image'
+import LogoUrl from './public/images/game_logo.png';
+
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -24,8 +27,14 @@ export default function Navbar() {
     >
       <nav className="container mx-auto flex flex-wrap items-center justify-between p-4 text-white">
 
-        <a href="#home" className="font-yellowtail text-2xl font-bold font-montserrat">
-          Carkenstein
+        <a href="#home" className="flex items-center">
+          <Image
+            src="/images/game_logo.png"
+            alt="Game Logo"
+            width='40'
+            height='40'
+            priority
+          />
         </a>
 
         {/* Hamburger Button */}
